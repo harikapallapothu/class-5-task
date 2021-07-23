@@ -1,11 +1,11 @@
 var a = [
     {
         dimensions: {
-            "overall length": 3500, "overallwidth":1600, "overall height":1490,
-            "wheel base": 2360, "trackwidth":{ "front": 1405, "rear":1400 },
+            "overall_Length": 3500, "overall_Width":1600, "overall_Height":1490,
+            "wheel_Base": 2360, "track_Width":{ "front": 1405, "rear":1400 },
                
            
-            "minimum turning radius" : 4.5,  "inimum ground clearance" : 170 
+            "minimum_turning radius" : 4.5,  "inimum ground clearance" : 170 
             
         }
     },

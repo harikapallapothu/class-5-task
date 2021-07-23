@@ -1,0 +1,51 @@
+var a = [
+    {
+        dimensions: {
+            "overall length": 3500, "overallwidth":1600, "overall height":1490,
+            "wheel base": 2360, "trackwidth":{ "front": 1405, "rear":1400 },
+               
+           
+            "minimum turning radius" : 4.5,  "inimum ground clearance" : 170 
+            
+        }
+    },
+           {
+           capacities: {
+               "Seating capacity": 5, "fuel tank capacity":35
+           }
+        },
+        {
+            Engine: {
+                "type": "KB-Series", "number of cylinders" : 3, "number of valves" : 12, "capacity":998, "bore*stroke": "73.0*79.5", "compression ratio": "10:1", "maximum power": "67/6200", "fuel distribution": "multipoint Injection"
+            }
+        }
+        ,
+        {
+            Transmission: {
+                "type": "5-speed MT"
+            }
+        },
+        {
+            Chassis:{
+                "Steering": "Rack&Pinion,Power assisted",
+                "Brakes": {
+                    "Front": "Ventilated discs",
+                    "Rear": "drums"
+                    
+                },
+                "suspension":{
+                    "Front": "MacPherson strut & coil spring",
+                    "Rear": "Isolated trailing link & coil spring"},
+                
+                "Shock absorbers": "Gas filled",
+                "Tyre(tubeless)":" 155/80R13"
+            }
+        },
+        {
+            Weights: {
+                "kerb weight(min with ful options)": "860-880",
+                "gross vehicle weight": 1320
+            }
+        }
+        
+    ]
